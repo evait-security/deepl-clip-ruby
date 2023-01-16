@@ -24,3 +24,8 @@ This simple call will convert your current clipboard into the target lang you de
 ```zsh
 bundler exec ruby deepl-clip.rb
 ```
+
+After moving the folder to `/usr/local/bin` you can define a keyboard shortcut that will execute the following command
+```zsh
+bash -c 'cd /usr/local/bin/deepl-clip-ruby && bundle exec ruby deepl-clip.rb'
+```
