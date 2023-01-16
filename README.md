@@ -1,5 +1,5 @@
 # deepl-clip-ruby
-This small script will translate your current clipboard content into a pre defined target language using the deepl API. A free version is available for delevopers on https://www.deepl.com/de/pro/change-plan#developer. (500.000 characters limit per month atm)
+This small script will translate your current clipboard content into a pre defined target language using the deepl API. The current clipboard text will be replaced by the translated one. A free version is available for delevopers on https://www.deepl.com/de/pro/change-plan#developer. (500.000 characters limit per month atm)
 ## Installation using bundler
 ```zsh
 bundle config set --local path 'vendor/bundle'
