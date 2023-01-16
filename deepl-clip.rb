@@ -41,3 +41,4 @@ res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) {|http|
 }
 json_response = JSON.parse(res.body)
 Clipboard.copy json_response['translations'][0]['text']
+exec('notify-send "Translation moved to clipboard"')
