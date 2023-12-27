@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 gem 'options'
 gem 'clipboard'
-gem 'byebug'
+gem "json", "~> 2.7"
